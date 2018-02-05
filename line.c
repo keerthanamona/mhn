@@ -2,8 +2,7 @@
    int main( )                                                     
    {                                                           
        char  l[81]={"hello world"}, ch;                              
-       int   c;                                                
-       c = 0;                                                       
+       int   c=0;                                                                                                      
        do                                                      
        {                                                       
            ch = getchar();                              
@@ -11,8 +10,7 @@
            c++;                                                
        }                                                       
        while(ch != '\n');                                
-       c = c - 1;                                              
-       l[c] = '\0';                                         
+       c = c - 1;                                                                             
        printf("\n%d\n", c);    
 return 0;                             
    }                                                           
