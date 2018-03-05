@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int n[4]={1,2,3,4};
-    int k=2,i;
+    int ku[4]={1,2,3,4};
+    int m=2,i;
     for(i=0;i<=4;i++)
     {
-        if(n[i]==k)
+        if(ku[i]==m)
         {
-            printf("%d",n[i]);
+            printf("%d",ku[i]);
         }
     }
     return 0;
